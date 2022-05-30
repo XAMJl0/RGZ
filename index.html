@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>РГЗ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript">
+        $(function() {
+
+            $('#accordion').accordion({ active: false,
+                collapsible: true   });
+            $('button').button();
+
+        });
+    </script>
+</head>
+<body>
+<h1>Музыкальные инструменты</h1>
+<form>
+    <div id="accordion">
+        <h2><a href="#">Струнные инструменты</a></h2>
+        <div id="row1" class="drow">
+            <div  class="dcell">
+                <img src="https://podarokservis.ru/image/cache/data/Saksofon/2016.09.12.17-1000x1000.jpg?size=1000x1000&quality=95&type=album"  width="150"   alt=""/>
+                <p>скрипка</p>
+            </div>
+            <div class="dcell">
+                <img src="https://steemitimages.com/DQmYuJoRpDBb6qMdgAj9ztPdLuDAx2pxkDRJXu9KuK1L5C7/cello-2830670.jpg?size=810x1080&quality=95&type=album" alt=""/>
+                <p>виолончель</p>
+            </div>
+            <div class="dcell">
+                <img src="http://www.dkpokrov.ru/wp-content/uploads/2020/07/fender-dick-dale-malibu-sce-5.jpg?size=810x1080&quality=95&type=album" alt=""/>
+                <p>гитара</p>
+            </div>
+        </div>
+        <h2><a href="#">Ударные инструменты</a></h2>
+        <div id="row2" class="drow">
+            <div class="dcell">
+                <img src="http://madisonkh.com/wp-content/uploads/2015/11/Products58814-1200x1200-254083.jpg?size=810x900&quality=95&type=album" alt=""/>
+                <p>бонго</p>
+            </div>
+            <div class="dcell">
+                <img src="https://www.babyshop.com/images/358837/153766-10-a.jpg?size=810x900&quality=96&type=album" alt=""/>
+                <p>барабан</p>
+            </div>
+            <div class="dcell">
+                <img src="https://pguards.ru/upload/iblock/88d/3bqgh25i27hp5r1ok5pkya7lfgwcrik9.jpeg?size=810x900&quality=95&type=album" alt=""/>
+                <p>бубен</p>
+            </div>
+        </div>
+        <h2><a href="#">Духовые инструменты</a></h2>
+        <div id="row3" class="drow">
+            <div class="dcell">
+                <img src="https://pianino-dv.ru/wa-data/public/shop/products/64/03/364/images/419/419.970.jpg?size=810x1080&quality=95&type=album" alt=""/>
+                <p>саксофон</p>
+            </div>
+            <div class="dcell">
+                <img src="https://konspekta.net/studopediaru/baza24/9817418096887.files/image002.jpg?size=607x1080&quality=96&type=album" alt=""/>
+                <p>Труба</p>
+            </div>
+            <div class="dcell">
+                <img src="http://dsad-39.ru/wp-content/uploads/2020/04/klarnet.jpg?size=810x1080&quality=95&type=album" alt=""/>
+                <p>Кларнет</p>
+            </div>
+        </div>
+    </div>
+
+</form>
+</body>
+
+</html>
